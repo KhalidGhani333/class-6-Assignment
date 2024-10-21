@@ -11,21 +11,21 @@ export default async function Deal(){
     setTimeout(resolve,3000)})
   return (
     <div>
-      <div className='p-10'>
+      <div className='p-12'>
         <h1 className='text-xl font-bold'>Visit One of Our Countries Now</h1>
         <p className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, cumque!</p>
       </div>
-        <div className='ml-2 md:ml-10 mt-10 pb-2 flex'>
+        <div className='ml-7 md:ml-10 mt-10 pb-2 flex'>
           <div className='flex flex-col md:flex-row '>
             <div>
-          <Image src="/image3.jfif" alt="switzerland" width={250} height={250} className="rounded-lg w-52 h-60 bg-cover"/>
+          <Image src="/image3.jfif" alt="france" width={250} height={250} className="rounded-lg w-52 h-60 bg-cover"/>
           </div>
-          <div className=' pl-0 md:pl-4 '>
+          <div className=' pl-0 md:pl-4 w-[250] '>
             <h1 className='text-xl font-bold mt-5 md:mt-0'>FRANCE</h1>
             <span className='text-sm text-gray-400 '>Europe</span>
-            <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur. <br /> adipisicing Aliquid inventore dolorem ipsum quod.</p>
+            <p className='text-gray-600 '>Lorem ipsum dolor sit, amet consectetur. <br /> adipisicing Aliquid inventore dolorem ipsum quod.</p>
           
-          <div className=" w-[400px]  mt-10 flex  ">
+          <div className=" mt-10 flex flex-col md:flex-row ">
             <div className="flex items-center mr-4">
             <IoIosContact className="size-6 text-sky-300" />
             <p className="text-start text-gray-500">67.41 M People</p>
@@ -47,17 +47,17 @@ export default async function Deal(){
           </div>
           </div>
         </div>
-        <div className='ml-2 md:ml-10 mt-10 flex'>
+        <div className='ml-7 md:ml-10 mt-10 flex'>
           <div className='flex flex-col md:flex-row '>
             <div>
           <Image src="/image1.jfif" alt="switzerland" width={250} height={250} className="rounded-lg w-52 h-60 bg-cover"/>
           </div>
-          <div className='md:pl-4'>
+          <div className='md:pl-4 w-[250]'>
             <h1 className='text-xl font-bold mt-5 md:mt-0'>SWITZERLAND</h1>
             <span className='text-sm text-gray-400 '>Europe</span>
             <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur. <br /> adipisicing Aliquid inventore dolorem ipsum quod.</p>
           
-          <div className=" w-[400px]  mt-10 flex  ">
+          <div className=" mt-10 flex flex-col md:flex-row ">
             <div className="flex items-center mr-4">
             <IoIosContact className="size-6 text-sky-300" />
             <p className="text-start text-gray-500">8.66 M People</p>
@@ -79,17 +79,17 @@ export default async function Deal(){
           </div>
           </div>
         </div>
-        <div className='ml-2 md:ml-10 mt-10 pb-2 flex'>
+        <div className='ml-7 md:ml-10 mt-10 pb-2 flex'>
           <div className='flex flex-col md:flex-row '>
             <div>
           <Image src="/image2.jfif" alt="Caribbean" width={250} height={250} className="rounded-lg w-52 h-60 bg-cover"/>
           </div>
-          <div className='md:pl-4'>
+          <div className='md:pl-4 w-[250]'>
             <h1 className='text-xl font-bold mt-5 md:mt-0'>CARIBBEAN</h1>
             <span className='text-sm text-gray-400 '>North America</span>
             <p className='text-gray-600'>Lorem ipsum dolor sit, amet consectetur. <br /> adipisicing Aliquid inventore dolorem ipsum quod.</p>
           
-          <div className=" w-[400px]  mt-10 flex  ">
+          <div className=" mt-10 flex flex-col md:flex-row ">
             <div className="flex items-center mr-4">
             <IoIosContact className="size-6 text-sky-300" />
             <p className="text-start text-gray-500">44.48 M People</p>

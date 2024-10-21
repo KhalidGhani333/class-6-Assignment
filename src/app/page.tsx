@@ -14,7 +14,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
 
         <div className='relative z-10 flex flex-col justify-center items-center text-white pt-20'>
-        <p className="text-xl text-white">Take a Glimpse into the Beautiful country of:</p>
+        <p className="text-xl text-white text-center ">Take a Glimpse into the Beautiful country of:</p>
         <h1 className="text-white text-5xl font-bold mt-4">Switzerland</h1>
         <button className="border-2 mt-8 border-blue-400 rounded-3xl text-blue-400 px-8 py-2 hover:bg-sky-300 hover:text-white ">Go There</button>
 
