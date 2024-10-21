@@ -19,7 +19,7 @@ export default function About() {
           Whether you are seeking the thrill of exploring vibrant cities, relaxing on sun-kissed beaches, or immersing yourself in rich cultural experiences, our dedicated team is here to guide you every step of the way.
           Join us at Travel Envy and let your adventure begin! <b>Explore. Dream. Discover.</b></p>
         <h2 className='font-bold text-xl text-center'>Let’s turn your travel dreams into reality!</h2>
-        <h2 className='font-bold text-xl text-center'>Contact us today, and let's make your next travel experience unforgettable!</h2>
+        <h2 className='font-bold text-xl text-center'>Contact us today, and lets make your next travel experience unforgettable!</h2>
 
          
           <div className=" flex flex-col sm:flex-col md:flex-row mt-10 mx-auto justify-around gap-y-3 sm:gap-x-10">
